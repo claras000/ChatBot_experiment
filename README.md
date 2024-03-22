@@ -2,15 +2,6 @@
 
 Understanding Language with Computers
 
-student: Clara Osterburg Correa
-Immatr: 6050790
-
-student: Saskia Juergens
-Immatr: 6143565
-
-student: Subrina Jahan
-Immatr: 6100956
-
 name: “RobotTalkZone”
 Domain: conversation logs / a conversation chatbot
 
