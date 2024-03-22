@@ -1,0 +1,147 @@
+{
+  "topics": [
+    {
+      "tag": "work",
+      "pattern": [
+        "What do you do for a living?",
+        "No, I don't. I work too much to have time for one. How about you?",
+        "I work a lot too. I'm a stay at home mom. What do you do for work?",
+        "I work at a library. It's a lot of fun, and I get to meet lots of interesting people.",
+        "I work at a grocery store, so I deal with a lot of gross things, too."
+      ],
+      "followingTags": ["hobbies", "friends"]
+    },
+    {
+      "tag": "bad_weather",
+      "pattern": [
+        "Average temperature is [temperature] degrees and [precipitation] percent chance of rain",
+        "[temperature] degrees [precipitation] chance of rain",
+        "The temperature is estimated at [temperature] degrees Fahrenheit with a [precipitation] percent chance of rain.",
+        "That's a good point. I don't think I'd want to live near a hurricane either."
+      ],
+      "followingTags": ["Date", "hobbies"]
+    },
+    {
+      "tag": "hobbies",
+      "pattern": [
+        "Jazz is great. I love listening to it while traveling. Do you travel much?",
+        "I like to spend time with my family. I love spending time with them. What about you?",
+        "i am a scientist. Do you have any of your hobbies?",
+        "That would be nice. I love to cook. What do you like to do in your spare time?",
+        "I am sorry to hear that. Do you have any hobbies to keep your mind off of it?",
+        "I like to listen to rock music and go to the gym. What do you like to do?",
+        "I enjoy sewing my own clothes. It is relaxing. What kind of music do you listen to?",
+        "I like to read a lot. I also like to go to the movies. What about yourself?",
+        "What do you do for fun? I like to go to the beach and listen to music.",
+        "I have an Australian Cattle Dog. She's a sweetheart. What do you like to do for fun?"
+      ],
+      "followingTags": ["friends", "Social Media"]
+    },
+    {
+      "tag": "friends",
+      "pattern": [
+        "I like to play video games and hang out with my friends. Do you have any hobbies?",
+        "It's always nice to have nice people in your life. They make the world a better place.",
+        "Yes, they do. I wish I had more people in my life that cared about me.",
+        "I'm sorry to hear that. Do you have any hobbies that help you meet new people?"
+      ],
+      "followingTags": ["Social Media", "cinema"]
+    },
+    {
+      "tag": "Date",
+      "pattern": [
+        "Pet Sematary is so good. What time can I watch it? My preferred date is March 8th.",
+        "That sounds like a good idea. I am going to see a movie with my girlfriend this weekend.",
+        "I would love to go to Paris someday and try some of their cuisine.",
+        "Perfect. Now let's find a house to stay for 2 persons there.",
+        "Thanks! I also want to find an inexpensive restaurant with Latin American food there.",
+        "Perfect. Will I get vegetarian food there?",
+        "Were you going to attend on [show_date]?"
+      ],
+      "followingTags": ["cinema", "movienight"]
+    },
+    {
+      "tag": "Social Media",
+      "pattern": [
+        "What book do you have on Facebook?",
+        "I work for facebook. It's a great company to work for. Do you like your job?",
+        "You've taken up social media. ThereS's also a great place to look.",
+        "I hope you have the best time for you to go and you want to explore. How about you? I'm a social media player that I have a similar job.",
+        "I don't use Facebook, but I do like Instagram. It's a great way to keep in touch with friends and family.",
+        "Yes, I have an Instagram account. I like to post pictures of me and my family.",
+        "What's your favorite entertainment? I play it on TV too. I see a TV show at Whatsapp TV."
+      ],
+      "followingTags": ["Science Fiction", "Computer"]
+    },
+    {
+      "tag": "computer",
+      "pattern": [
+        "I love to play video games and watch movies. What kind of music do you like to listen to?",
+        "Yes, I have one. I have one. I like to play video games.",
+        "I like to play video games. What about you? What do you like to do for fun?",
+        "I like playing video games as well. I also like to read books. What kind of video games do you play?",
+        "That's too bad. What do you do for a living? I'm a computer programmer.",
+        "I've been programming for about 10 years now. I love it. What kind of music do you like?",
+        "I enjoy watching your computer. Why does that matter?",
+        "So I have a computer computer and a computer I never had.",
+        "I can do any good things for you, my favorites are on my computer.",
+        "That's awesome. I love hip hop. I listen to it while I work on my computer."
+      ],
+      "followingTags": ["Science Fiction", "movie"]
+    },
+    {
+      "tag": "Science Fiction",
+      "pattern": [
+        "I love to read as well! What is your favorite genre of book? Mine is science fiction.",
+        "I like science fiction and fantasy books. What is your favorite genre of books to read?",
+        "Look for any Supernatural movies to watch a imax show.",
+        "I'm looking for a movie on line some future scientific fiction would be my first choice.",
+        "It's a first person shooter game. It's set in a post-apocalyptic world.",
+        "It's a zombie apocalypse show, so it's a lot of fun to watch.",
+        "My favorite genre is science fiction.",
+        "I like science fiction and fantasy books. Do you have any hobbies besides playing video games?",
+        "That's really cool. What kind of robots do you build? I like science fiction movies."
+      ],
+      "followingTags": ["Alita"]
+    },
+    {
+      "tag": "cinema",
+      "pattern": [
+        "How much is the ticket and where is this cinema located?",
+        "Please check whether there are any regular show of Dramatic story in Vine Cinema?",
+        "Please try to find any movie there at Livermore Cinema.",
+        "Hello! I'd like to see a Fantasy movie at Pruneyard Cinemas in Campbell. Can you help me find something?",
+        "Try to get a kids movie for me? I want the cheap showings at 3rd Street Cinema.",
+        "Yes and I would like to see it at Veranda LUXE Cinema.",
+        "Sure, could you search for some nice Comedy movies shown on IMAX at Embarcadero Center Cinema?",
+        "Yes and I would like to see it at Veranda LUXE Cinema."
+      ],
+      "followingTags": ["Alita", "movie"]
+    },
+    {
+      "tag": "movie",
+      "pattern": [
+        "I like playing video games as well. I also like to watch movies. What is your favorite genre?",
+        "Are you interested in watching any movie?",
+        "There are [count] movies you might like. If you like to watch [movie_name], you may like [movie_name], or [movie_name]. The movie has been released.",
+        "What type of movie would you like?",
+        "Is there any other movie?",
+        "Can you find me a funny movie to watch there?",
+        "I want to Watch How to Train Your Dragon: The Hidden World.",
+        "I love the Godfather. It's one of my favorite movies. What's your favorite part?",
+        "What other movies are there?"
+      ],
+      "followingTags": ["Alita", "Science Fiction"]
+    },
+    {
+      "tag": "Alita",
+      "pattern": [
+        "I discovered [count] films. What is your opinion about [movie_name], [movie_name], or [movie_name]?",
+        "There are [count] films you may enjoy. Do you enjoy [title], [title], or [title]?",
+        "My favorite genre is the anime anime. My favorite is that of the movie [title].",
+        "I play [count] movie. I'm going to [title], which is an [title]."
+      ],
+      "followingTags": ["done"]
+    }
+  ]
+}

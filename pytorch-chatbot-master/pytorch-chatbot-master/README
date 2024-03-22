@@ -1,0 +1,49 @@
+RobotTalkZone Concept 02 ReadMe
+Date: 04.03.24
+Author: Clara Osterburg Correa/ Saskia/ Subrina
+
+Overview
+The second aproche is a feed forward deep learning modell where we analyze the current topic and lead to another which is nearer to the topic the movie “Alita”. The tag will be analyzed and if the tag fits there will be passed new tags referring more to the topic.
+The Training Data for this task is created with Chatgbt. 
+The new tag is sended to the API with the request to make a new question concerning that tag.
+By doing this we encircle the topic until we talk about the movie “Alita”
+
+### Key Components
+
+## Training feedforward Model:
+Our Trainingmodell choose the next topic of the small talk. Please runthe training:
+
+python run train.py
+
+
+## API Key Setup:
+
+The OpenAI API key is required to run this code. Please replace the placeholder "###" with your actual OpenAI API key.
+Type of Request:
+
+The code initiates a conversation with a predefined system message, setting the user as a film critic with specific hobbies and interests. The goal is to guide the conversation toward the movie "Alita" after a few interactions.
+ChatGPT Request Function:
+
+The CustomChatGPT function handles user inputs, sends the entire conversation to the OpenAI GPT-3.5 Turbo model, and returns the model's reply. The conversation history is maintained in the messages variable.
+The feed forward modell gives back the topic. To check the topic run the chatTest.
+
+## Gradio Interface:
+
+The Gradio interface (RobotTalkZone) is set up to take user input as text and display the model's response in real-time. It provides an interactive platform for users to engage with the ChatGPT model.
+How to Run
+Ensure you have the required dependencies installed. You can install them using:
+
+Copy code
+pip install openai gradio
+Replace the OpenAI API key placeholder in the code with your actual API key.
+
+
+## run programm
+Run the code. The Gradio interface will launch, allowing you to interact with the ChatGPT model.
+
+python run chat.py
+
+## Additional Information
+The code utilizes the GPT-3.5 Turbo model from OpenAI for natural language understanding and generation.
+The gradio library is used to create a user-friendly interface for interacting with the ChatGPT model.
+The chatTest.py runs withour gradio to check the topics. chat.py is the final programm

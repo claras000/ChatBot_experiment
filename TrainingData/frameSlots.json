@@ -1,0 +1,13 @@
+{
+  "request_slots": [
+    {
+      "movieKnowledge": ["no", "jes"],
+      "reserve_tickets": [
+        { "cinema": ["cinemax Bremen", "home"] },
+        { "city": "Bremen" },
+        { "time": [{ "year": "", "day": "", "clock_time": "" }] },
+        { "number_of_people": "" }
+      ]
+    }
+  ]
+}

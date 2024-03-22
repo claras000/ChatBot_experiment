@@ -1,0 +1,125 @@
+{
+  "topics": [
+    {
+      "tag": "work",
+      "pattern": [
+        "How was your day at work today?",
+        "Tell me about any interesting projects you're currently working on.",
+        "Do you enjoy your job, or is it just a means to an end?",
+        "Any exciting work-related stories or challenges you'd like to share?",
+        "Let's take a break from work talk and discuss something fun. Any favorite hobbies?"
+      ],
+      "followingTags": ["hobbies", "friends"]
+    },
+    {
+      "tag": "bad_weather",
+      "pattern": [
+        "The weather outside is terrible. How do you usually spend your time on rainy days?",
+        "Rainy days make me want to stay indoors. What about you?",
+        "Any favorite activities for gloomy weather?",
+        "How does bad weather affect your mood and daily plans?",
+        "Let's brighten the mood. How about discussing your favorite date ideas?"
+      ],
+      "followingTags": ["Date", "hobbies"]
+    },
+    {
+      "tag": "hobbies",
+      "pattern": [
+        "What are some of your favorite hobbies or activities to do in your free time?",
+        "Tell me about a hobby that you're really passionate about.",
+        "Do you have a specific hobby you could spend hours doing?",
+        "How did you discover your hobbies, and do you have any new ones you're exploring?",
+        "Hobbies can be a great stress reliever. What's your go-to stress-busting activity?"
+      ],
+      "followingTags": ["friends", "Social Media"]
+    },
+    {
+      "tag": "friends",
+      "pattern": [
+        "Have you caught up with any friends lately? How was it?",
+        "Friendship is so important. Do you have a best friend or a close-knit group?",
+        "Share a memorable experience with your friends that always brings a smile to your face.",
+        "Friendship and social connections are crucial. How do you nurture your friendships?",
+        "Let's transition from friends to something more cinematic. Any recent movies you've watched with friends?"
+      ],
+      "followingTags": ["Social Media", "cinema"]
+    },
+    {
+      "tag": "Date",
+      "pattern": [
+        "How do you usually plan your date nights? Any favorite spots or activities?",
+        "Tell me about a memorable date you've had in the past.",
+        "What's your idea of a perfect movie night for a date?",
+        "Do you have any favorite genres or movies you would recommend for a date night?",
+        "Speaking of dates, have you seen any good movies lately?"
+      ],
+      "followingTags": ["cinema", "movienight"]
+    },
+    {
+      "tag": "Social Media",
+      "pattern": [
+        "Ever share sci-fi content on your social media? 'Alita' could be the next talk of your timeline! Have you heard about it?",
+        "Thinking about our tech chat, have you considered discussing 'Alita' on your social media? It's a sci-fi gem!",
+        "Social media is buzzing with sci-fi enthusiasts. 'Alita' is a must-watch; it might even become your next status update!",
+        "Considering our tech talk, 'Alita' would be a great addition to your watchlist. Heard about this sci-fi masterpiece?",
+        "Exploring social media and tech, 'Alita' fits right in. Have you seen it? It's a sci-fi experience like no other!"
+      ],
+      "followingTags": ["Science Fiction", "Computer"]
+    },
+    {
+      "tag": "computer",
+      "pattern": [
+        "In the realm of computers and sci-fi, 'Alita' brings an impressive blend. Have you added it to your movie nights yet?",
+        "From computer tech to the big screen, 'Alita' seamlessly combines both worlds. Any plans to watch it soon?",
+        "Tech enthusiasts often appreciate the futuristic tech in 'Alita.' Does it sound like a movie you'd enjoy?",
+        "Talking about computers, have you considered how they're portrayed in 'Alita'? It's a sci-fi adventure worth exploring!",
+        "Considering our tech discussion, 'Alita' could be a visual treat. Any interest in sci-fi with a touch of computer marvels?"
+      ],
+      "followingTags": ["Science Fiction", "movie"]
+    },
+    {
+      "tag": "Science Fiction",
+      "pattern": [
+        "Speaking of sci-fi, 'Alita' offers a captivating journey into the genre. Any reasons you haven't seen it yet?",
+        "Sci-fi lovers usually appreciate the unique elements in 'Alita.' What's your take on this intriguing sci-fi universe?",
+        "Considering your interest in science fiction, 'Alita' might be the next movie night choice. Have you watched it?",
+        "Sci-fi buffs often find 'Alita' to be a hidden gem. What's stopping you from diving into this futuristic adventure?",
+        "Sci-fi conversations are incomplete without mentioning 'Alita.' Curious about this cinematic journey?"
+      ],
+      "followingTags": ["Alita"]
+    },
+    {
+      "tag": "cinema",
+      "pattern": [
+        "Movies are a great escape. Have you considered immersing yourself in the world of 'Alita'? It's quite an experience!",
+        "If you enjoy cinematic adventures, 'Alita' is a must-watch. Any particular reason you haven't seen it yet?",
+        "Let's talk about your movie preferences. 'Alita' might just be the perfect fit. What's holding you back from watching it?",
+        "Considering our chat about movies, 'Alita' seems like a movie you'd enjoy. Any plans to add it to your watchlist?",
+        "Cinematic experiences are personal. 'Alita' offers a unique one. What's your hesitation in giving it a try?"
+      ],
+      "followingTags": ["Alita", "movie"]
+    },
+    {
+      "tag": "movie",
+      "pattern": [
+        "Exploring movie preferences, 'Alita' could align with your interests. Any specific reason you haven't watched it yet?",
+        "Movies often resonate with our experiences. 'Alita' might strike a chord with you. What's keeping you from watching it?",
+        "Let's dive into genres. 'Alita' offers a blend that might catch your interest. Have you considered adding it to your watchlist?",
+        "Considering our movie chat, 'Alita' could be your next favorite. What's your reservation about giving it a try?",
+        "Movies bring people together. 'Alita' has that potential. What's holding you back from experiencing this sci-fi journey?"
+      ],
+      "followingTags": ["Alita", "Science Fiction"]
+    },
+    {
+      "tag": "Alita",
+      "pattern": [
+        "Now, let's talk about a movie that might have slipped under your radar – 'Alita.' What intrigues you about exploring this sci-fi adventure?",
+        "Have you come across 'Alita' in your movie recommendations? It's a hidden gem that deserves a spot on your watchlist!",
+        "Considering our chat, 'Alita' seems like a movie that could elevate your movie nights. Any specific questions about it?",
+        "If you haven't watched 'Alita' yet, let me share why it's worth your time. What's your take on diving into this sci-fi world?",
+        "As we wrap up, let me leave you with a movie recommendation – 'Alita.' It's a sci-fi journey that might just become a favorite. What are your thoughts on giving it a go?"
+      ],
+      "followingTags": ["done"]
+    }
+  ]
+}
